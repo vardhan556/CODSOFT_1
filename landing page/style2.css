@@ -1,0 +1,255 @@
+body
+{
+    color: black;
+    background-image: url(bgg.jpg);
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.list{
+    list-style: none;
+}
+.list li{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 50px;
+}
+.offers{
+    margin-left: 600px;
+    border: none;
+    color: blue;
+}
+
+.see{
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 16px;
+
+}
+.src2{
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+}
+.row{
+    display: flex;
+}
+.col1{
+    width: 60%;
+    /* background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+}
+.col2{
+    width: 40%;
+    margin-top: 0px;
+    opacity: 95%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.cont{
+    
+}
+.search,.mmt{
+    align-items: center;
+    margin-left: 30%;
+}
+.search{
+    margin-left: 20%;
+}
+.sea{
+    margin-left: 30px;
+}
+.date{
+    margin-top: 40px;
+    margin-left: 7%;
+}
+.dateselect{
+    height: 25px;
+    width: 130px;
+    border-radius: 18px;
+}
+#ip{
+    height: 32px;
+    border-radius: 10px;
+    width: 174px;
+    background: none;
+    border: 2px solid black;
+}
+.dateselect{
+    border: 2px solid black;
+    background: none;
+}
+.araku,.manali,.goa{
+    text-decoration: none;
+    border: none;
+    background: none;
+    border-radius: 10px;
+    align-items: center;
+}
+.unlock1{
+    display: flex;
+    justify-content: space-around;
+}
+.src1{
+    border-radius: 25px;
+}
+.src1:hover{
+    height: 180px;
+    width: 230px;
+    opacity: 90%;
+}
+.para{
+    font-size: 40px;
+    font-family: fantasy;
+}
+center{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 35px;
+}
+.icon{
+    display: flex;
+    /* background-image: linear-gradient(to right,white,rgb(18, 238, 234)); */
+}
+.see{
+    background-color: rgb(5, 137, 117);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 40px;
+    margin-left: 20%;
+    font-family: cursive;
+    
+}
+#ip:hover{
+    background-color: rgb(10, 163, 71);
+}
+.flight{
+    border: none;
+    margin-left: 20px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+.test{
+    list-style: none;
+    align-items: center;
+}
+.test li{
+    display: inline-block;
+    padding: 20px;
+}
+.mar{
+    margin-left: 23px;
+}
+.mar2{
+    margin-left: 12px;
+}
+.row3{
+    margin-top: 80px;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+}
+.subcol1{
+    margin-left: 20px;
+}
+.subcol1,.subcol2{
+    width: 34%;
+}
+.subcol3{
+    width: 32%;
+}
+.row4{
+    background-color: black;
+}
+.contact,.fb,.google,.cookies,.globe{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    color: white;
+    border: none;
+    align-items: center;
+}
+.enter{
+    border: none;
+    height: 25px;
+    border-radius: 20px;
+}
+.globe,.fb,.google{
+    display: flex;
+}
+.mmt2{
+    margin-left: 500px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.unlock{
+    margin-top: 80px;
+}
+#a:hover{
+    height: 40px;
+    width: 40px;
+}
+.mar:hover{
+    height:40px;
+    width: 65px;
+}
+.ul li{
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+}
+.social-icons li{
+    display: flex;
+    margin-left: 30px;
+}
+.col-md-4{
+    display: flex;
+    margin-left: 20px;
+}
+.md42{
+    margin-left: 20%;
+}
+.facebook:hover,.instagram:hover,.twitter:hover,.linkedin:hover{
+}
+.src3:hover{
+    height: 35px;
+    width: 35px;
+}
+@keyframes bounce {
+    0%, 20%, 40%,60%.80%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px)
+    }
+}
+.see{
+    animation: bounce 1s infinite;
+}
+@keyframes bounce2 {
+    0%, 50%, 100%{
+        transform: translateY(0);
+    }
+}
+.see:hover{
+    animation: bounce2 1s infinite;
+    background-color: rgb(4, 164, 20);
+}
+.mmt{
+    font-size: 40px;
+}
+footer{
+    background-image: url(bg4.jpg);
+    color: white;
+    width: 100%;
+}
